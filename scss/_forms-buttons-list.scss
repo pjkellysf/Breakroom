@@ -1,0 +1,32 @@
+// Forms
+.form-control {
+	background-color: $lightGray; // override default white
+	border: 0px none; // remove border
+}
+
+.btn-default {
+	background-color: $black; // override default white
+	color: $white; // override default black
+	&:hover, &:focus {
+		background-color: $gray; // override Bootstrap gray
+		color: $white; // override default black
+	}
+}
+
+// Buttons
+.btn-primary {
+	background-color: $turquoise; // override default blue
+	border: 0px none; // remove border
+	&:hover, &:focus {
+		background-color: darken($turquoise, 10%); 
+	}
+}
+
+// Lists
+ul>li>a {
+	color: $turquoise; // override default blue
+	&:hover, &:focus {
+		color: darken($turquoise, 10%);
+		text-decoration: none; // remove underline
+	}
+}

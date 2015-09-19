@@ -1,0 +1,32 @@
+//Typography - Body
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #999999;
+  background-color: #ffffff;
+}
+
+// Typography - Headings
+  h1,
+  h2,
+  h3 {
+  font-family: "Lato", sans-serif;
+  color: #666666;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 4em; // 60px/15px (body font-size) = 4em
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 2em; // 30px/15px = 2em
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.5em; // 23px/15px = 1.5em (approx)
+  font-weight: normal;
+}
