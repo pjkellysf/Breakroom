@@ -1,8 +1,0 @@
-// Mixins
-@mixin hover-darken($color, $percentage) {
-	&:hover,
-	&:focus {
-		color: darken($color, $percentage);
-		text-decoration: none;
-	}
-}
